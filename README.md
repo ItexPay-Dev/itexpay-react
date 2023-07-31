@@ -31,9 +31,9 @@ Import `useItexPay` to your component:
 
 ```tsx
 import * as React from 'react';
-import { useItexPay } from 'itexpay-react'
+import { useItexPay, ItexPayProps } from 'itexpay-react'
 
-const options = {
+const options: ItexPayProps = {
     api_key: '<your_api_key>',
     first_name: 'John',
     last_name: 'Doe',
@@ -49,7 +49,7 @@ const PaymentScreen = () => {
     const { handlePay, loaded } = useItexPay(options, {
         onCompleted: () => console.log('payment completed'), 
         onClose: () => console.log('onClose'), 
-        onCancel: () => {}
+        onError: () => {}
     })
 
     if (!loaded) {
