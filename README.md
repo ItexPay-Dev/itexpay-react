@@ -67,7 +67,7 @@ export default PaymentScreen
 
 ### Parameters
 
-Read more about our parameters and how they can be used [here](https://developer.flutterwave.com/docs/collecting-payments/inline).
+Read more about our parameters and how they can be used [here](https://itexpay.com/docs/checkout-inline#parameter-definition).
 
 | Parameter           | Required? | Description                                                                                                                                                                                                                             |
 | ------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,7 +85,7 @@ Read more about our parameters and how they can be used [here](https://developer
 
 # Support
 
-If you need further support while using this library, don't hesitate to reach out to us. You can either create an issue on our Github repository or get in touch with our team through email at developers@iisysgroup.com. We are here to help!
+If you need further support while using this library, don't hesitate to reach out to us. You can either create an issue on our Github repository or get in touch with our team through email at [developers@iisysgroup.com]. We are here to help!
 
 
 ## License
